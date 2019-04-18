@@ -1,0 +1,6 @@
+362984
+
+Mascara de subrede corresponde a faixa de ips disponiveis para uma rede.
+ Leva o conceito de rede classe A, B e C. Mascara de subrede de A
+ é 255.0.0.0, B é 255.255.0.0 e C é 255.255.255.0, na qual os campos com 0 ficam disponiveis 
+ para alocação de novos IPs, podendo variar de 0 a 255.

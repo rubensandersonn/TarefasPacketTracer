@@ -1,0 +1,5 @@
+362984
+
+Há um constante reenvio de arquivos RIP para se certificar que as redes que constam na tabela de 
+roteamento continuam ativas e obter informações atualizadas a respeito dos roteadores na rede.
+ Isso mantém as tabelas e informações atualizadas.

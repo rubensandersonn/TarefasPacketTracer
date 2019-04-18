@@ -1,0 +1,16 @@
+2 - Dest Mac é FFFF.FFFF.FFFF.FFFF porque o remetente deseja fazer um broadcast,
+	 ou seja, este pacote deve chegar em todos os nós da subrede. Target MAC
+	 é 0000.0000.0000.0000 porque o remetente nao sabe o endereço MAC ao qual
+	 o pacote se destina. Essa reuisiçao eh importante para atualizar a tabela arp do host
+	com o endereço MAC do destinatario.
+
+3 - DEST MAC, TARGET MAC referenciam o endereço mac ao qual o pacote deve ser enviado, mas um
+	 é referente ao ethernet, e o outro, ao arp. Analogo ao significado de IP TARGET.
+
+	SOURCE MAC, SRC MAC referenciam o endereço mac do qual o pacote esta sendo enviado(ARP e Ethernet, resp.).
+	 Analogo ao significado de IP SRC.
+
+4 - 	O remetente não possui o endereço MAC do destino. Com isso, ele envia um pacote ao roteador de borda.quando 
+	chega, consulta sua tabela arp sem sucesso. produz um pacote arp para descobrir o MAC do destino na outra 
+	subrede via broadcast(requisição arp).
+	
